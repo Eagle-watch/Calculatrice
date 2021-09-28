@@ -5,7 +5,7 @@
 //       ifdocument.getElementById("ecran").innerHTML 
 //       else 
 //   
-
+// Corection
 let resultat = document.getElementById('resultat')
 // On attrape la balise HTML qui à pour id resultat
 function appuisTouche(num) 
@@ -30,6 +30,8 @@ function appuisSymbole(sym)
 function appuisClear() {
     resultat.innerHTML = ""
 } 
+
+//Mon essais
 //let egal = document.getElementById('resultat').innerHTML
 
 //function egal(egal) {
@@ -46,6 +48,7 @@ function appuisClear() {
 //    let fExiste = resultat.split('*')
 //   let dExiste = resultat.split('/')
 //}
+// Correction
 function egal() {
     //On récupère la position des symboles +-*/ dans la balise HTML résultat, 
     //si la fonction répond -1 la balise résultat ne contient pas le symbole
@@ -81,6 +84,20 @@ function egal() {
         }
     }
 }
+// Mon essais 
+//function ariere(ariere) {
+    //let pExiste = resultat.innerHTML.substr(0,resultat.innerHTML.length-1)
+    //let mExiste = resultat.innerHTML.substr(0,resultat.innerHTML.length-1)
+    //let fExiste = resultat.innerHTML.substr(0,resultat.innerHTML.length-1)
+    //let dExiste = resultat.innerHTML.substr(0,resultat.innerHTML.length-1)
+    //if(pExiste> -1) {
+    //let nombres = resultat.innerHTML.substr(0,resultat.innerHTML.length-1)
+    //resultat.innerHTML=nombres
+     //               }                }
+
+      //                  }
+      // Correction 
+      
 
 
 
