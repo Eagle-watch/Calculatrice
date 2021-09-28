@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculatrice</title>
     <link rel="stylesheet" href="calculatrice.css">
-    <script src="calculatrice.js"></script>
+    <script src="calculatrice.js"defer></script>
 </head>
 <body>
 <div class="bouton">
-    <div id="ecran"></div>
-    <div class="bouton1"><input type="button" value="1" onclick="appuitouche(1)"></div> 
-    <div class="bouton2"><input type="button" value="2" onclick="appuitouche(2)"></div>
-    <div class="bouton3"><input type="button" value="3" onclick="appuitouche(3)"></div>
-    <div class="bouton4"><input type="button" value="4" onclick="appuitouche(4)"></div>
-    <div class="bouton5"><input type="button" value="5" onclick="appuitouche(5)"></div>
-    <div class="bouton6"><input type="button" value="6" onclick="appuitouche(6)"></div>
-    <div class="bouton7"><input type="button" value="7" onclick="appuitouche(7)"></div>
-    <div class="bouton8"><input type="button" value="8" onclick="appuitouche(8)"></div>
-    <div class="bouton9"><input type="button" value="9" onclick="appuitouche(9)"></div>
-    <div class="bouton0"><input type="button" value="0" onclick="appuitouche(0)"></div>
-    <div class="boutonegal"><input type="button" value="=" onclick="resultats ('=')"></div>
-    <div class="boutonfois"><input type="button" value="*" onclick="appuitouche ('*')"></div>
-    <div class="boutonmoins"><input type="button" value="-" onclick="appuitouche ('-')"></div>
-    <div class="boutondivise"><input type="button" value="/" onclick="appuitouche('/')"></div>
-    <div class="boutonplus"><input type="button" value="+" onclick="appuitouche('+')"></div>
-    <div class="efface"><input type="button" value="CE"></div>
+    <div id="resultat"></div>
+    <div class="bouton1"><input type="button" value="1" onclick="appuisTouche(1)"></div> 
+    <div class="bouton2"><input type="button" value="2" onclick="appuisTouche(2)"></div>
+    <div class="bouton3"><input type="button" value="3" onclick="appuisTouche(3)"></div>
+    <div class="bouton4"><input type="button" value="4" onclick="appuisTouche(4)"></div>
+    <div class="bouton5"><input type="button" value="5" onclick="appuisTouche(5)"></div>
+    <div class="bouton6"><input type="button" value="6" onclick="appuisTouche(6)"></div>
+    <div class="bouton7"><input type="button" value="7" onclick="appuisTouche(7)"></div>
+    <div class="bouton8"><input type="button" value="8" onclick="appuisTouche(8)"></div>
+    <div class="bouton9"><input type="button" value="9" onclick="appuisTouche(9)"></div>
+    <div class="bouton0"><input type="button" value="0" onclick="appuisTouche(0)"></div>
+    <div id="egal"><input type="button" value="=" onclick="egal ('=')"></div>
+    <div class="boutonfois"><input type="button" value="*" onclick="appuisSymbole ('*')"></div>
+    <div class="boutonmoins"><input type="button" value="-" onclick="appuisSymbole ('-')"></div>
+    <div class="boutondivise"><input type="button" value="/" onclick="appuisSymbole('/')"></div>
+    <div class="boutonplus"><input type="button" value="+" onclick="appuisSymbole('+')"></div>
+    <div class="efface"><input type="button" value="CE" onclick="appuisClear()"></div>
 </div>
 </body>
 </html>
