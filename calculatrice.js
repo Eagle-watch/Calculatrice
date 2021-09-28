@@ -30,7 +30,7 @@ function appuisSymbole(sym)
 function appuisClear() {
     resultat.innerHTML = ""
 } 
-let egal = document.getElementById('resultat').innerHTML
+//let egal = document.getElementById('resultat').innerHTML
 
 //function egal(egal) {
 
