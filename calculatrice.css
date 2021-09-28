@@ -8,6 +8,7 @@
   @media screen {
       all
   }
+  
 }
 #ecran {
   display: grid;
@@ -16,14 +17,15 @@
   grid-row: 1;
   text-align: center;
   text-shadow: red 6px 6px 10px;
+  color: blue;
 }
 [type="button"] {
   width: 100%;
   height: 100%;
   text-align: center;
-  text-shadow: red 10px 10px 10px;
-  color: blue;
-  background-color: white;
+  text-shadow: red 15px 15px 0px;
+  color: red;
+  background-color: black;
 }
 .bouton1 {
   border: solid black 2px;
