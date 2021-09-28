@@ -109,3 +109,13 @@
   grid-row: 5;
   grid-column: 1;
 }
+.point{
+    border: black solid 2px;
+    grid-row: 5;
+    grid-column: 5;
+}
+.C{
+    border: solid black 2px;
+    grid-row: 4;
+    grid-column: 5;
+}
